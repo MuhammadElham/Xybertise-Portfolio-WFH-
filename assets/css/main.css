@@ -867,7 +867,8 @@ body.loaded {
 .tj-header-area .header-menu ul > li.has-dropdown > a {
 	padding-right: 20px;
 }
-.tj-header-area .header-menu ul > li.has-dropdown > a::after {
+/* Change in logo */
+/* .tj-header-area .header-menu ul > li.has-dropdown > a::after {
 	position: absolute;
 	content: "\2b";
 	font-family: "Font Awesome 6 Pro";
@@ -876,8 +877,8 @@ body.loaded {
 	right: 0;
 	font-size: 13px;
 	line-height: 1;
-}
-.tj-header-area
+} */
+/* .tj-header-area
 	.header-menu
 	ul
 	> li
@@ -895,7 +896,7 @@ body.loaded {
 	> li.has-dropdown
 	> a::after {
 	right: 20px;
-}
+} */
 
 .tj-header-area .header-menu ul > li > a::before {
 	content: "";
@@ -928,6 +929,10 @@ body.loaded {
 	transition: transform 0.3s ease-in-out;
 	transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
+/* Own Change */
+/* .tj-header-area .header-menu .elham > li > a::before{
+	width: 75%;
+} */
 .tj-header-area .header-menu ul > li.current-menu-item > a::before,
 .tj-header-area .header-menu ul > li.current-menu-ancestor > a::before,
 .tj-header-area .header-menu ul > li:hover > a::before {
